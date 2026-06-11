@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class CarMove : MonoBehaviour
+public class Car: MonoBehaviour
 {
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
