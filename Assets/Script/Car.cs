@@ -13,7 +13,7 @@ public class Car: MonoBehaviour
 	{
 		transform.position += Vector3.left * speed * Time.deltaTime;
 
-		if (transform.position.x < -700)
+		if (transform.position.x < -750)
 		{
 			SceneManager.LoadScene("ClearScene");
 		}
