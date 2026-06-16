@@ -25,7 +25,7 @@ public class CatJump : MonoBehaviour
 			GetComponent<ParticleSystem>().Play();
 		}
 
-		if (transform.position.x < -12)
+		if (transform.position.x < -13)
 		{
 			SceneManager.LoadScene("death");
 		}
